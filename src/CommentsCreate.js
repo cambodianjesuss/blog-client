@@ -5,8 +5,10 @@ const CommentsCreate = () => {
     <div>
       <form>
         <div className='form-group'>
-          <input />
+          <label>New Comments</label>
+          <input className='form-control' />
         </div>
+        <button className='btn btn-primary'>Submit</button>
       </form>
     </div>
   )
