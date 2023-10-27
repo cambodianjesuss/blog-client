@@ -23,7 +23,7 @@ const CommentsCreate = ({postId}) => {
             className='form-control'
           />
         </div>
-        <button className='btn btn-primary'>Submit</button>
+        <button className='btn btn-primary' style={{"margin-top": "10px"}}>Submit</button>
       </form>
     </div>
   )
