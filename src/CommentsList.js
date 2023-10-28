@@ -14,7 +14,11 @@ const CommentsList = ({postId}) =>{
   }, []);
 
   const renderedComments = Object.values(comments).map(comment=>{
-    return <li key={comment.id}>{comment.content}</li>
+    return (
+      <li 
+        key={comment.id}>
+        {comment.content}
+      </li>)
   })
 
   return (<div className="">
