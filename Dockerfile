@@ -1,5 +1,9 @@
 FROM node:alpine
 
+# Add the following lines
+ENV CI=true
+ENV WDS_SOCKET_PORT=0
+
 # Start app in /app directory when container is created
 WORKDIR /app
 
